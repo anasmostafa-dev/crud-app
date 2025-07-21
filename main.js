@@ -149,7 +149,7 @@ function DeleteAll(){
 //update
 
 function updateData(i){
-
+    clearData();
     title.value = creatPro[i].title;
     price.value = creatPro[i].price;
     taxes.value = creatPro[i].taxes;
