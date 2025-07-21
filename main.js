@@ -54,12 +54,13 @@ submit.onclick = function(){
             }
         }else{
             creatPro.push(objPro);
-        }clearData();
+        }
     }else{
         creatPro[ tmp ] = objPro;
         mood = 'create'
         submit.innerHTML = 'Create';
         count.style.display = 'block';
+        clearData();
     } 
     }
     
