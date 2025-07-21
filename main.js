@@ -178,7 +178,7 @@ let searchMood = 'title'
 
 function getsearchMood(id){
     let search = document.getElementById('search');
-    if( id === 'bytitle'){
+    if( id == 'bytitle'){
         searchMood = 'title';
         
     }else{
