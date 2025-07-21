@@ -55,6 +55,7 @@ submit.onclick = function(){
         }else{
             creatPro.push(objPro);
         }
+        clearData();
     }else{
         creatPro[ tmp ] = objPro;
         mood = 'create'
