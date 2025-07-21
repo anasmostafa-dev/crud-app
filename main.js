@@ -179,7 +179,7 @@ let searchMood = 'title'
 function getsearchMood(id){
     let search = document.getElementById('search');
     if( id === 'bytitle'){
-        searchMood = 'Title';
+        searchMood = 'title';
         
     }else{
         searchMood = 'Category';
